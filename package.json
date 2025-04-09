@@ -1,0 +1,32 @@
+{
+  "name": "ts-jest-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.1",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaketysome/node-ts-jest-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaketysome/node-ts-jest-starter/issues"
+  },
+  "homepage": "https://github.com/jaketysome/node-ts-jest-starter#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
